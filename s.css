@@ -1,0 +1,155 @@
+body{
+    background-image: url('download8.jpg');
+    background-size: cover;
+    animation-name: ffm;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.one{
+    height: 280px;
+    width: 300px;
+    position: absolute;
+    left: 700px;
+    top: 100px;
+    background-image: url('download7.jpg');
+    background-size: cover;
+    border-radius: 25%;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    box-sizing: 30px;
+    
+}
+.two{
+    height: 280px;
+    width: 300px;
+    position: absolute;
+    left: 1050px;
+    top: 100px;
+    background-image: url('download7.jpg');
+    background-size: cover;
+    border-radius: 25%;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    color:black;
+    border-color: black;
+    border-style: solid;
+    box-sizing: 30px;
+    
+}
+.three{
+    height: 280px;
+    width: 300px;
+    position: absolute;
+    left: 1050px;
+    top: 430px;
+    background-image: url('download7.jpg');
+    background-size: cover;
+    border-radius: 25%;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    color:black;
+    border-color: black;
+    border-style: solid;
+    box-sizing: 30px;
+    
+}
+.four{
+    height: 280px;
+    width: 300px;
+    position: absolute;
+    left: 700px;
+    top: 430px;
+    background-image: url('download7.jpg');
+    background-size: cover;
+    border-radius: 25%;
+    text-align: center;
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    box-sizing: 30px;
+    
+
+}
+.first{
+    background-image: url('fm1.jpg');
+    background-size: cover;
+    height: 350px;
+    width: 580px;
+    border-radius: 15%;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    animation-name: fmanimation;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+    
+   
+}
+@keyframes fmanimation{
+    from{background-size: cover;
+    border-color: black;}
+    to{background-size: contain;
+    border-color: blue;}
+}
+.one:hover{
+    animation-name: anim;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-timing-function: steps(5);
+ 
+
+}
+.two:hover{
+    animation-name: anim;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-timing-function: steps(5);
+    
+    
+}
+.three:hover{
+    animation-name: anim;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-timing-function: steps(5);
+    
+}
+.four:hover{
+    animation-name: anim;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-timing-function: steps(5);
+   
+    
+}
+@keyframes anim{
+    from{font-style: normal;font-weight: 400;color: black;}
+    to{font-style: italic;font-weight: 600;color: purple;}
+}
+
+
+@keyframes ffm{
+    from{background-size: cover;}
+    to{background-size: auto;}
+}
